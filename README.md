@@ -1,53 +1,48 @@
-# Getting Started with Create React App
+# Cercul Feminin Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Connecting Rural Romanian Artisans with Markets and Tourists
 
-## Available Scripts
+![Cercul Feminin]
 
-In the project directory, you can run:
+## About the Project
+Cercul Feminin is an AI-powered platform that bridges the gap between talented rural Romanian women artisans and broader markets. Our mission is to tackle the limited market access and logistical isolation faced by these artisans, where there is significant opportunity with 83% rural internet penetration but limited transportation infrastructure and e-commerce connections.
 
-### `npm start`
+### Key Features
 
-Runs the app in the development mode.\
+- **AI-Powered Matching**: Connects artisans' handcrafted products with appropriate logistics providers and major Romanian e-commerce platforms like eMAG, FashionDays, and Elefant.ro
+
+- **Via Transilvanica Integration**: Uniquely leverages the 1,420 km Via Transilvanica trail by connecting tourists with nearby artisans, showcasing locally produced goods available for immediate purchase or later delivery
+
+- **Dual Market Access**: Provides artisans with both digital marketplace presence and direct tourist engagement, creating a powerful marketing engine through tourist social media sharing
+
+- **Preservation of Cultural Heritage**: Promotes traditional Romanian crafts including carpets, baskets, ceramics, and other handmade goods while supporting sustainable practices in underserved communities
+
+## Impact
+
+Our initial testing with 15 women artisans along a 50km stretch of Via Transilvanica demonstrated:
+
+- Average income increase of €150 per artisan during the 3-month testing period
+- 20% increase in website traffic to linked e-commerce platform pages
+- Organic social media reach to 2,500+ users through tourist sharing
+
+## Technology
+
+Built with React, the platform features responsive design, interactive maps for locating artisans along Via Transilvanica, comprehensive product listings, and detailed artisan profiles that tell the stories behind the crafts.
+
+## Getting Started
+
+To run this project locally:
+
+```
+npm install
+npm start
+```
+
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project aims to empower rural women economically, enabling them to monetize their lifelong skills and contribute to their regional economies while preserving Romania's rich cultural heritage.
 
 ### Analyzing the Bundle Size
 
