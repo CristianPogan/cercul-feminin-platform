@@ -1,0 +1,397 @@
+.product-details-page {
+  padding: 3rem 0;
+}
+
+.breadcrumb-nav {
+  margin-bottom: 2rem;
+}
+
+.breadcrumb-item a {
+  color: #6c757d;
+  text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+  color: #6a3d2b;
+  text-decoration: underline;
+}
+
+.breadcrumb-item.active {
+  color: #6a3d2b;
+}
+
+/* Loading and Not Found */
+.loading-spinner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 0;
+}
+
+.product-not-found {
+  text-align: center;
+  padding: 5rem 0;
+}
+
+/* Product Images */
+.product-images {
+  position: relative;
+}
+
+.main-image-container {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.via-transilvanica-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #ff7f50;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.thumbnail-images {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+}
+
+.thumbnail-container {
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border-color 0.3s;
+}
+
+.thumbnail-container.active {
+  border-color: #6a3d2b;
+}
+
+.thumbnail-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Product Info */
+.product-info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #495057;
+  margin-bottom: 1rem;
+}
+
+.artisan-info {
+  margin-bottom: 1.5rem;
+}
+
+.artisan-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  padding: 0.75rem;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  transition: background-color 0.3s;
+}
+
+.artisan-link:hover {
+  background-color: #e9ecef;
+}
+
+.artisan-image-container {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 1rem;
+}
+
+.artisan-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.artisan-details {
+  flex-grow: 1;
+}
+
+.artisan-name {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+  color: #495057;
+}
+
+.artisan-location {
+  font-size: 0.85rem;
+  color: #6c757d;
+  margin-bottom: 0;
+}
+
+.product-category {
+  display: inline-block;
+  font-size: 0.9rem;
+  color: #6a3d2b;
+  background-color: #f8f9fa;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+}
+
+.product-price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #6a3d2b;
+  margin-bottom: 1.5rem;
+}
+
+.product-description {
+  margin-bottom: 2rem;
+}
+
+.product-description h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #495057;
+}
+
+.product-description p {
+  color: #6c757d;
+  line-height: 1.6;
+}
+
+.product-actions {
+  margin-top: auto;
+}
+
+.quantity-selector {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.quantity-selector label {
+  font-weight: 500;
+  color: #495057;
+  margin-bottom: 0;
+}
+
+.quantity-selector input {
+  width: 80px;
+}
+
+/* Product Details Tabs */
+.product-details-tabs {
+  margin-top: 3rem;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.nav-tabs .nav-link {
+  color: #6c757d;
+  border: none;
+  border-bottom: 2px solid transparent;
+  padding: 0.75rem 1.5rem;
+  font-weight: 500;
+}
+
+.nav-tabs .nav-link:hover {
+  border-color: transparent;
+  color: #6a3d2b;
+}
+
+.nav-tabs .nav-link.active {
+  color: #6a3d2b;
+  background-color: transparent;
+  border-bottom: 2px solid #6a3d2b;
+}
+
+.tab-content {
+  padding: 2rem 0;
+}
+
+.product-specifications h5,
+.product-story h5,
+.artisan-profile h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #495057;
+}
+
+.specifications-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.specification-item {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.specification-label {
+  font-weight: 600;
+  color: #495057;
+  min-width: 120px;
+}
+
+.specification-value {
+  color: #6c757d;
+}
+
+.product-story p {
+  color: #6c757d;
+  line-height: 1.6;
+}
+
+.artisan-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.artisan-image-container-large {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 1.5rem;
+}
+
+.artisan-image-large {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.artisan-location-large {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.artisan-description {
+  margin-bottom: 1.5rem;
+  color: #6c757d;
+  line-height: 1.6;
+}
+
+/* Related Products */
+.related-products {
+  margin-top: 4rem;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #6a3d2b;
+  margin-bottom: 2rem;
+}
+
+.product-card {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s, box-shadow 0.3s;
+  height: 100%;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.product-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.product-image-container {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+
+.product-card:hover .product-image {
+  transform: scale(1.05);
+}
+
+.product-info {
+  padding: 1.5rem;
+}
+
+.product-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #495057;
+}
+
+.product-artisan {
+  font-size: 0.85rem;
+  color: #6c757d;
+  margin-bottom: 0.5rem;
+}
+
+.product-category {
+  font-size: 0.85rem;
+  color: #6a3d2b;
+  margin-bottom: 0.5rem;
+}
+
+.product-price {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #6a3d2b;
+  margin-bottom: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .product-title {
+    font-size: 1.75rem;
+  }
+  
+  .product-info {
+    margin-top: 2rem;
+  }
+}

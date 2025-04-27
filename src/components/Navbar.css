@@ -1,0 +1,30 @@
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.brand-text {
+  font-weight: 700;
+  color: #6a3d2b;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-weight: 500;
+  color: #555;
+  margin: 0 5px;
+  transition: color 0.3s;
+}
+
+.nav-link:hover, .nav-link.active {
+  color: #6a3d2b;
+}
+
+@media (max-width: 992px) {
+  .navbar-nav {
+    padding-top: 1rem;
+  }
+  
+  .nav-link {
+    padding: 0.5rem 0;
+  }
+}

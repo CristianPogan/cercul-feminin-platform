@@ -1,0 +1,108 @@
+.artisan-registration-page {
+  padding: 3rem 0;
+}
+
+.registration-header {
+  margin-bottom: 2rem;
+}
+
+.page-title {
+  font-weight: 700;
+  color: #6a3d2b;
+  margin-bottom: 1rem;
+}
+
+.page-description {
+  color: #6c757d;
+  margin-bottom: 1rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.registration-form-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.registration-form {
+  padding: 2rem;
+}
+
+.form-section {
+  margin-bottom: 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.form-section:last-child {
+  margin-bottom: 1.5rem;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.section-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #6a3d2b;
+  margin-bottom: 1.5rem;
+}
+
+.form-label {
+  font-weight: 500;
+  color: #495057;
+}
+
+.form-text {
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
+.form-check-label a {
+  color: #6a3d2b;
+  text-decoration: none;
+}
+
+.form-check-label a:hover {
+  text-decoration: underline;
+}
+
+.form-actions {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Success message */
+.registration-success {
+  padding: 5rem 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.success-icon {
+  font-size: 5rem;
+  color: #28a745;
+  margin-bottom: 2rem;
+}
+
+.registration-success h2 {
+  font-weight: 700;
+  color: #6a3d2b;
+  margin-bottom: 1.5rem;
+}
+
+.registration-success p {
+  color: #6c757d;
+  margin-bottom: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .registration-form {
+    padding: 1.5rem;
+  }
+}

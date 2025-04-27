@@ -1,0 +1,140 @@
+.about-page {
+  padding: 3rem 0;
+}
+
+.about-header {
+  margin-bottom: 3rem;
+}
+
+.page-title {
+  font-weight: 700;
+  color: #6a3d2b;
+  margin-bottom: 1rem;
+}
+
+.page-subtitle {
+  color: #6c757d;
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-section {
+  margin-bottom: 5rem;
+}
+
+.about-image-container {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.about-image {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s;
+}
+
+.about-image:hover {
+  transform: scale(1.02);
+}
+
+.section-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #6a3d2b;
+  margin-bottom: 1.5rem;
+}
+
+.about-content p {
+  color: #6c757d;
+  margin-bottom: 1.2rem;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+/* Stats Section */
+.stats-section {
+  margin-bottom: 5rem;
+}
+
+.stat-card {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  height: 100%;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #6a3d2b;
+  margin-bottom: 0.5rem;
+}
+
+.stat-label {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #495057;
+  margin-bottom: 1rem;
+}
+
+.stat-description {
+  color: #6c757d;
+  font-size: 0.95rem;
+  margin-bottom: 0;
+}
+
+/* CTA Section */
+.cta-section {
+  background-color: #f8f9fa;
+  padding: 3rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.cta-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #6a3d2b;
+  margin-bottom: 1.5rem;
+}
+
+.cta-text {
+  color: #6c757d;
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .section-title {
+    font-size: 1.5rem;
+  }
+  
+  .cta-title {
+    font-size: 1.8rem;
+  }
+  
+  .stat-number {
+    font-size: 2rem;
+  }
+}
